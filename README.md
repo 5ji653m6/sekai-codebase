@@ -63,7 +63,7 @@ We provide a comprehensive toolchain for [downloading original videos](https://g
 
 \* denotes the best-of-the-best videos sampled in consideration of the computational resources for training.
 
-\+ denotes that a subset of videos was annotated with camera trajectories. Refer to the [paper](https://arxiv.org/abs/2506.15675) for more details.
+\+ denotes that a subset of videos was annotated with camera trajectories. Refer to the [paper](https://arxiv.org/abs/2506.15675) for more details. **We will soon release camera trajectory annotations for all of Sekai-Real.**
 
 ### Sekai-Game
 

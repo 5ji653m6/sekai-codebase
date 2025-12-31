@@ -69,7 +69,7 @@ class NVVCVideoEncoder:
             codec="hevc",
             fps=fps,
             initqp="0,0,0",
-            gop=240,
+            gop=int(fps // 2),
             tuning_info="high_quality",
             preset="P7",
             maxbitrate="4M",

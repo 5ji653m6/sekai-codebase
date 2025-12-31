@@ -38,17 +38,18 @@ def process_one_video(args, vid, clips, ignore_audio=False):
             )
             subprocess.run(
                 shlex.split(
-                    "ffmpeg -i {} -i {} -map 0:v -map 1:a -c copy -t 60 -movflags +faststart -vtag hvc1 "
-                    "-loglevel error {}".format(_vstream_filename, _astream_filename, _clip_filename),
+                    "ffmpeg -i {} -i {} -map 0:v -map 1:a -c copy -t 60 -avoid_negative_ts make_zero "
+                    "-movflags +faststart -vtag hvc1 -loglevel error {}".format(
+                        _vstream_filename, _astream_filename, _clip_filename
+                    ),
                 ),
                 check=True,
             )
         else:
             subprocess.run(
                 shlex.split(
-                    "ffmpeg -i {} -map 0:v -c copy -t 60 -movflags +faststart -vtag hvc1 -loglevel error {}".format(
-                        _vstream_filename, _clip_filename
-                    ),
+                    "ffmpeg -i {} -map 0:v -c copy -t 60 -avoid_negative_ts make_zero -movflags +faststart -vtag hvc1 "
+                    "-loglevel error {}".format(_vstream_filename, _clip_filename),
                 ),
                 check=True,
             )

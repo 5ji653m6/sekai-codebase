@@ -1,15 +1,24 @@
-# Sekai: A Video Dataset towards World Exploration
-
-
 <div align="center">
 
+<h1 align="center">Sekai: A Video Dataset towards World Exploration</h1>
 
-
-
-[![project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://lixsp11.github.io/sekai-project/)&nbsp;
-[![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.15675-b31b1b.svg)](https://arxiv.org/abs/2506.15675)&nbsp;
-[![demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Lixsp11/Sekai-Project)&nbsp;
-[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=5UQ0zAIZkSY)&nbsp;
+<p align="center">
+  <a href="https://lixsp11.github.io/sekai-project/">
+    <img src="https://img.shields.io/badge/Project-Page-2ea44f?style=flat&logo=googlechrome&logoColor=white" alt="Project Page">
+  </a>
+  <a href="https://arxiv.org/abs/2506.15675">
+    <img src="https://img.shields.io/badge/arXiv-2506.15675-b31b1b?style=flat&logo=arxiv&logoColor=b31b1b" alt="arXiv">
+  </a>
+  <a href="https://github.com/Lixsp11/sekai-codebase">
+    <img src="https://img.shields.io/badge/Code-Github-007ec6?style=flat&labelColor=555555&logo=github&logoColor=white" alt="GitHub Code">
+  </a>
+  <a href="https://huggingface.co/datasets/Lixsp11/Sekai">
+    <img src="https://img.shields.io/badge/Dataset-HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=yellow" alt="Hugging Face Dataset">
+  </a>
+  <a href="https://www.youtube.com/watch?v=5UQ0zAIZkSY">
+    <img src="https://img.shields.io/badge/YouTube-Video-FF0000?style=flat&logo=youtube&logoColor=red" alt="YouTube Video">
+  </a>
+</p>
 
 </div>
 
@@ -57,9 +66,9 @@ We provide a comprehensive toolchain for [downloading original videos](https://g
 
 | Split                             | Annotation                                                   | Camera Trajectories                                          | \# Source Videos | \# Samples | Video Duration | Storage Space |
 | --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
-| Sekai-Real-Walking                | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip)<sup>+</sup> | 6552             | 299173     | 4986h          | ~10TB         |
-| Sekai-Real-Walking-HQ<sup>*</sup> | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking-hq.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 3879             | 18208      | 304h           | ~600GB        |
-| Sekai-Real-Drone                  | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-drone.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-drone.zip) | 69               | 23912      | 65h            | ~140GB        |
+| Sekai-Real-Walking                | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/sekai-real-walking-hq.zip)<sup>+</sup> | 6552             | 299173     | 4986h          | ~10TB         |
+| Sekai-Real-Walking-HQ<sup>*</sup> | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/train/sekai-real-walking-hq.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/sekai-real-walking-hq.zip) | 3879             | 18208      | 304h           | ~600GB        |
+| Sekai-Real-Drone                  | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/train/sekai-real-drone.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/sekai-real-drone.zip) | 69               | 23912      | 65h            | ~140GB        |
 
 \* denotes the best-of-the-best videos sampled in consideration of the computational resources for training.
 
@@ -71,8 +80,8 @@ The videos and corresponding camera trajectory files of **Sekai-Game** is hosted
 
 | Split              | Annotation                                                   | Videos & Camera Trajectories                                 |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Sekai-Game-Walking | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-game-walking.csv) | [part1](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-game-walking.zip.part_aa) and [part2](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-game-walking.zip.part_ab) |
-| Sekai-Game-Drone   | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-game-drone.csv) | [here](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-game-drone.zip) |
+| Sekai-Game-Walking | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/train/sekai-game-walking.csv) | [part1](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/sekai-game-walking.zip.part_aa) and [part2](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/sekai-game-walking.zip.part_ab) |
+| Sekai-Game-Drone   | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/train/sekai-game-drone.csv) | [here](https://huggingface.co/datasets/Lixsp11/Sekai/blob/main/sekai-game-drone.zip) |
 
 ## 📦 Checklist
 
